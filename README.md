@@ -1,50 +1,50 @@
-# ☀️ Analisis Tekno-Ekonomi PLTS Skala Utilitas 10 MWp di Situbondo
+# ☀️ Techno-Economic Analysis of a 10 MWp Utility-Scale Solar PV Plant in Situbondo
 
-**Penulis:** Regan Agam (NIM: 24/PTK/552177/16439)  
-**Program Studi:** Magister Teknik Elektro, Universitas Gadjah Mada (UGM)  
-**Mata Kuliah:** Energi Baru dan Terbarukan (EBT)
+**Author:** Regan Agam (Student ID: 24/PTK/552177/16439)  
+**Program:** Master's in Electrical Engineering, Universitas Gadjah Mada (UGM)  
+**Course:** New and Renewable Energy (Energi Baru dan Terbarukan / EBT)
 
-## 📌 Ringkasan Proyek
-Transisi energi menuju *Net Zero Emission* (NZE) 2060 menuntut akselerasi infrastruktur Pembangkit Listrik Tenaga Surya (PLTS). Proyek ini menyajikan analisis komprehensif mengenai kelayakan tekno-ekonomi untuk perancangan PLTS skala utilitas berkapasitas **10 MWp** di Kabupaten Situbondo, Jawa Timur.
+## 📌 Project Overview
+The energy transition towards Net Zero Emission (NZE) 2060 demands the rapid acceleration of Solar Photovoltaic (PV) infrastructure. This project presents a comprehensive techno-economic feasibility analysis for the design of a **10 MWp** utility-scale solar power plant in Situbondo Regency, East Java, Indonesia.
 
-Situbondo dipilih secara strategis karena ketersediaan lahan marginal yang tidak mengganggu produktivitas agrikultur dan tingginya tingkat iradiasi matahari. Proyek ini juga merumuskan mitigasi risiko terkait fluktuasi biaya (*Levelized Cost of Energy* / LCOE), tantangan regulasi (seperti TKDN), dan integrasi grid (seperti fenomena *Duck Curve*).
+Situbondo was strategically selected due to its consistently high solar irradiance and the availability of marginal, rocky savanna land, ensuring that the development does not disrupt agricultural productivity. The project also formulates risk mitigation strategies concerning cost fluctuations (Levelized Cost of Energy / LCOE), regulatory challenges (such as Local Content Requirements / TKDN), and grid integration issues (e.g., the Duck Curve phenomenon).
 
-## 🌍 Analisis Klimatologi & Potensi Energi
-Data klimatologi ditarik menggunakan API dari **NASA Prediction of Worldwide Energy Resources (POWER)** untuk mendapatkan baseline produksi energi P50 (tingkat keyakinan 50%), yang kuat terhadap anomali cuaca ekstrem.
+## 🌍 Climatology Analysis & Energy Potential
+Climatological data was extracted using the **NASA Prediction of Worldwide Energy Resources (POWER)** API to establish a P50 energy production baseline (50% probability of exceedance), which is highly robust against extreme annual weather anomalies.
 
-*   **Koordinat Lokasi:** -7.7081, 114.0044 (Situbondo, Jawa Timur).
-*   **Rata-rata GHI Historis:** 5,68 kWh/m²/hari.
+*   **Location Coordinates:** -7.7081, 114.0044 (Situbondo, East Java).
+*   **Historical Average GHI:** 5.68 kWh/m²/day.
 
-![Tangkapan Layar NASA POWER](assets/SS%20Website%20Dataset%20NASA%20Power.png)
+![NASA POWER Dataset Screenshot](assets/SS%20Website%20Dataset%20NASA%20Power.png)
 
-Grafik di bawah ini menunjukkan profil bulanan yang ideal, di mana iradiasi tinggi terjadi konsisten sepanjang tahun dengan puncak pada bulan transisi musim (Oktober).
+The chart below illustrates an ideal monthly profile, where high irradiance occurs consistently throughout the year, peaking during the dry-to-wet transition month (October).
 
-![Profil Iradiasi dan Suhu](assets/grafik_situbondo_profil.png)
+![Irradiance and Temperature Profile](assets/grafik_situbondo_profil.png)
 
-## 🛠️ Performa Teknis Proyek (25 Tahun)
-Dengan memperhitungkan metrik teknis dan faktor degradasi panel, PLTS 10 MWp diestimasikan memiliki performa sebagai berikut:
+## 🛠️ Technical Performance (25-Year Lifespan)
+Accounting for technical metrics and solar panel degradation factors, the 10 MWp Solar PV plant is estimated to perform as follows:
 
-*   **Produksi Energi Tahun ke-1:** 16.180,02 MWh.
-*   **Capacity Factor (CF):** 18,47% (sangat tinggi untuk *non-tracking PV* di Asia Tenggara).
-*   **Kebutuhan Lahan:** ~10 - 12 Hektar.
-*   **Laju Degradasi:** 0,5% per tahun.
+*   **1st Year Energy Production:** 16,180.02 MWh.
+*   **Capacity Factor (CF):** 18.47% (highly favorable for a non-tracking PV system in Southeast Asia).
+*   **Land Requirement:** ~10 - 12 Hectares.
+*   **Degradation Rate:** 0.5% per year.
 
-Produksi energi dikalkulasi akan tetap solid menopang jaringan hingga akhir siklus hidup proyek (tahun ke-25), seperti yang divisualisasikan di bawah ini:
+The energy production is calculated to remain solid to support the regional grid until the end of the project's life cycle (year 25), as visualized below:
 
-![Proyeksi Degradasi](assets/grafik_situbondo_degradasi.png)
+![Energy Production Projection](assets/grafik_situbondo_degradasi.png)
 
-## 💰 Analisis Sensitivitas Keekonomian (LCOE)
-*Levelized Cost of Energy* (LCOE) dihitung dengan membandingkan tiga skenario kebijakan dan ekonomi makro (dengan usia proyek 25 tahun dan OPEX 1.5%).
+## 💰 Economic Sensitivity Analysis (LCOE)
+The Levelized Cost of Energy (LCOE) was calculated by comparing three macroeconomic and policy scenarios (assuming a 25-year project lifespan and 1.5% OPEX).
 
-1.  **Optimis (Dukungan penuh, bunga rendah):** LCOE turun drastis mencapai **3,53 Cent USD/kWh**, menjadikannya sangat bankable.
-2.  **Base Case (Kondisi saat ini):** LCOE berada di angka **4,90 Cent USD/kWh** (lebih murah dari Biaya Pokok Penyediaan PLTU batu bara).
-3.  **Pesimis (Beban bunga tinggi & pembengkakan CAPEX akibat TKDN):** LCOE melonjak hingga **7,10 Cent USD/kWh**, menandakan tingginya risiko investasi tanpa skema pendanaan yang inovatif.
+1.  **Optimistic Scenario (Full government support, low interest):** LCOE drops significantly to **3.53 Cents USD/kWh**, making the project highly bankable.
+2.  **Base Case Scenario (Current conditions):** LCOE stands at **4.90 Cents USD/kWh** (highly competitive and cheaper than the Generation Cost of local coal power plants).
+3.  **Pessimistic Scenario (High interest rates & CAPEX inflation due to strict TKDN):** LCOE surges to **7.10 Cents USD/kWh**, indicating a high investment risk without the presence of innovative financing schemes.
 
-![Analisis Sensitivitas LCOE](assets/grafik_sensitivitas_lcoe.png)
+![LCOE Sensitivity Analysis](assets/grafik_sensitivitas_lcoe.png)
 
-## 💡 Strategi Implementasi & Mitigasi Risiko
-Untuk memastikan proyek ini dapat menjadi tulang punggung NZE 2060, diusulkan *roadmap* strategi berikut:
+## 💡 Implementation Strategy & Risk Mitigation
+To ensure this project can serve as a robust backbone for the NZE 2060 target, the following strategic roadmap is proposed:
 
-1.  **Jangka Pendek (Regulasi):** Memberikan relaksasi batas Tingkat Komponen Dalam Negeri (TKDN) sementara waktu untuk menekan *premium cost* pada CAPEX awal dan menarik *Foreign Direct Investment* (FDI).
-2.  **Jangka Menengah (Teknologi):** Kewajiban integrasi *Battery Energy Storage System* (BESS) untuk menyimpan daya di siang hari dan mendistribusikannya di malam hari (*peak hour*), mengatasi isu intermitensi dan *Duck Curve*.
-3.  **Jangka Panjang (Ekspansi):** Mengonversi kelebihan suplai energi (curtailment) di siang hari menuju fasilitas *electrolyzer* untuk memproduksi **Hidrogen Hijau (Green Hydrogen)** sebagai komoditas ekspor atau penyimpan energi lintas musim.
+1.  **Short-Term (Regulation):** Providing a temporary relaxation of Local Content Requirement (TKDN) quotas for pioneer renewable projects. This will reduce the premium cost on initial CAPEX, stimulate Foreign Direct Investment (FDI), and accelerate green capacity building.
+2.  **Medium-Term (Technology):** Mandating the integration of **Battery Energy Storage Systems (BESS)**. BESS will store excess daytime power and distribute it stably during nighttime peak hours, transforming the PV plant from a variable renewable source into a reliable baseload generator and addressing the Duck Curve issue.
+3.  **Long-Term (Expansion):** Once the grid reaches over-capacity, the strategic move involves converting excess curtailed energy during peak daytime hours into electrolyzer facilities to produce **Green Hydrogen**. This acts as a boundless seasonal chemical storage that can be exported globally or utilized in eco-friendly gas turbines.
